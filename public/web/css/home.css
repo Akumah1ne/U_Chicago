@@ -1,0 +1,162 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --colorDanger: rgb(128, 0, 0);
+    --colorWhite: #ffffff;
+    --colorSecondary: rgb(224, 224, 224);
+    --colorDark: #000;
+    --colorGray: rgb(64,64,64);
+    --fontFamily: 'Kanit', sans-serif;
+}
+
+* > * {
+    font-family: var(--fontFamily);
+}
+
+h2{
+    font-size: 35px !important;
+}
+a{
+    /* text-decoration: none !important; */
+    text-decoration: underline white !important;
+    color: white;
+}
+
+h3{
+    margin: 12px 0px;
+    color: var(--colorGray);
+}
+
+h4{
+    color: var(--colorGray);
+    font-size: 27px;
+    margin: 12px 0px;
+}
+h5{
+    color: var(--colorDanger);
+    font-size: 30px;
+}
+h6{
+    margin: 40px 0px;
+    font-size: 20px;
+}
+
+.danger{
+    background-color: var(--colorDanger);
+}
+.gray{
+    background-color: rgb(243, 243, 243);
+}
+
+.button{
+    background-color: var(--colorDanger);
+    color: var(--colorWhite);
+    border: 1px solid white;
+    padding: 5px 15px;
+    margin: 0px 10px;
+}
+.button:hover{
+    background-color: var(--colorWhite);
+    color: rgb(41, 41, 41);
+    transition: all 0.5s ease;
+}
+
+.n-button{
+    background-color: var(--colorWhite);
+    color: var(--colorDanger);
+    padding: 5px 15px;
+    border: 1px solid rgb(128, 0, 0);
+}
+.n-button:hover{
+    background-color: var(--colorDanger);
+    color: var(--colorWhite);
+    padding: 5px 15px;
+    border: 1px solid rgb(128, 0, 0);
+    transition: all 0.5s ease;
+}
+
+.news{
+    background-color: rgb(0,42,58);
+    padding: 12px 20px;
+}
+
+.background{
+    background-color: var(--colorGray);
+    color: var(--colorWhite);
+    padding: 55px 55px;
+}
+
+.image{
+    position: relative;
+    margin: 0px 0px;
+    /* text-align: center; */
+}
+.image-text{
+    position: absolute;
+    top: 50px;
+    color: var(--colorSecondary);
+    width: 50%;
+    padding: 0px 70px;
+}
+
+.image-text1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    padding: 0px 70px;
+}
+
+.image-text2{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    padding: 0px 70px;
+}
+.image-text3{
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    padding: 0px 70px;
+}
+
+.connect{
+    background-color: rgb(50,68,105);
+    padding: 70px 30px;
+    margin: 40px 0px;
+}
+
+.submit{
+    padding: 10px 30px;
+    margin-top: 11px;
+    background-color: var(--colorDanger);
+    color: var(--colorWhite);
+    border: none;
+    display: block;
+    margin-left: auto;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style: none;
+    line-height: 29px;
+}
+
+.dots{
+    background-color: rgb(41, 41, 41);
+    padding: 1px 1px;
+    width: 100px;
+}
+.dot{
+    border-bottom: 1px solid rgb(41, 41, 41);
+    padding: 1px 1px;
+    background-color: rgb(41, 41, 41);
+}

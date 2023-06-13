@@ -1,0 +1,14 @@
+.header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.image{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    top: -122px;
+    left: 475px;
+
+}
