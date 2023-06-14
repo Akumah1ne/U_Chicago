@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'WebController@home')->name('home');
+Route::get('/home', 'WebController@students')->name('students');
